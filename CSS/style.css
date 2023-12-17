@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(215, 207, 207);
+}
+a:link {
+    color: green;
+    background: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background: transparent;
+    text-decoration: underline;
+}
+
+button {
+    color: white;
+    background: blue;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:visited {
+    background: red;
+}
+button:hover {
+    background: rgb(58, 58, 227);
+}
