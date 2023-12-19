@@ -1,0 +1,31 @@
+body {
+    background: rgb(195, 195, 195);
+    font-family: 'Lato', sans-serif;
+}
+.tab {
+    background: grey url(/Images/jpeg/energy2.jpg) center no-repeat;
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    text-align: center;
+}
+tr {
+    border-bottom: 1px solid #ddd;
+  }
+.tab th {
+    background: rgb(75, 73, 73);
+    padding: 5px;
+    color: white;
+}
+.tab td:hover {
+    background: rgb(207, 207, 207);
+    color: black;
+}
+.tab td:nth-child(even) {
+    background: rgb(207, 207, 207);
+}
+.tab td:nth-child(even):hover {
+    background: rgb(75, 73, 73);
+    cursor: copy;
+    color: white;
+}
