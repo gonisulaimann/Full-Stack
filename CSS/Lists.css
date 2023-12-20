@@ -1,0 +1,28 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+.unordered {
+    list-style: none;
+}
+.nav-bar {
+    list-style: none;
+    margin: 5px;
+    overflow: hidden;
+    background: black;
+}
+.nav-bar li {
+    float: left;
+}
+.nav-bar li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.nav-bar a:hover {
+    background: rgb(29, 29, 29);
+}
+.nav-bar .login-icon {
+    float: right;
+}

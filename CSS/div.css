@@ -1,0 +1,63 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+.cardholder {
+    display: flex;
+}
+.cardholder > div {
+    width: 33.33%;
+    color: white;
+    padding: 20px;
+}
+.card_one {
+    background: tomato;
+}
+.card_two {
+    background: purple;
+}
+.card_three {
+    background: grey;
+}
+.cardholder > div:hover {
+    opacity: 0.94;
+    cursor: pointer;
+}
+/**Creating a grid container**/
+.grid_container {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+
+}
+.grid_container > div {
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    opacity: 0.95;
+}
+.grid_one {
+    background: rgb(55, 55, 55);
+}
+.grid_two {
+    background: rgb(87, 87, 87);
+}
+.grid_three {
+    background: rgb(106, 106, 106);
+}
+.grid_container > div:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.grid_box {
+    display: grid;
+    grid-template-columns: 5% 5% 30% 30% 30% ;
+}
+.grid_box > div {
+    padding: 10px;
+    background: black;
+    color: white;
+    border: 2px solid white;
+}
+.grid_box > div:hover {
+    color: black;
+    background: white;
+}
