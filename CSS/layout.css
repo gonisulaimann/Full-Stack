@@ -1,0 +1,44 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+header {
+    background: rgb(78, 78, 78);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+section {
+    display: flex;
+}
+nav {
+    flex: 1;
+    list-style-type: none;
+    background: rgb(78, 78, 78);
+    padding: 30px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+nav a:hover {
+    color: rgb(215, 213, 213);
+    background: rgb(141, 140, 140);
+    padding: 10px 20px;
+}
+article {
+    flex: 3;
+    background: rgb(141, 140, 140);
+    padding: 20px;
+}
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
