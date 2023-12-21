@@ -1,0 +1,15 @@
+.center, #paragraph, .paragraph {
+    color: orange;
+}
+body {
+    background: linen;
+}
+h1, h2, h3 {
+    color: maroon;
+}
+/* this is an example of CSS comment */
+p {
+    color: red; /* sets the color to red */
+}
+
+/* Let's create the color cards here */
