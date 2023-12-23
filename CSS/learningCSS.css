@@ -13,3 +13,130 @@ p {
 }
 
 /* Let's create the color cards here */
+div.container {
+    display: block;
+}
+div.container > div {
+    display: inline-block;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+div.container > div.box1 {
+    background: tomato;
+}
+div.container > div.box2 {
+    background: orange;
+}
+div.container > div.box3 {
+    background: dodgerblue;
+}
+div.container > div.box4 {
+    background: mediumseagreen;
+}
+div.container > div.box5 {
+    background: gray;
+}
+div.container > div.box6 {
+    background: slateblue;
+}
+div.container > div.box7 {
+    background: violet;
+}
+div.container > div.box8 {
+    background: lightgray;
+}
+div.background {
+    background: url(/Images/jpeg/gradient.jpg);
+    background-repeat: repeat-x;
+    width: 500px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+div.bird {
+    background: url(/Images/jpeg/energy1.jpg);
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+div.bird2 {
+    background: #ffffff url(/Images/jpeg/energy2.jpg) fixed no-repeat center;
+    width: 200px;
+    height: 200px;
+}
+div.borders > div {
+    padding: 20px;
+    margin: 10px;
+}
+div.borders > div.border1 {
+    border: 2px solid red;
+}
+div.borders > div.border2 {
+    border: 2px dotted red;
+}
+div.borders > div.border3 {
+    border: 2px inset red;
+}
+div.borders > div.border4 {
+    border: 2px outset red;
+    border-width: 20px 10px 1px;
+}
+div.borders > div.border5 {
+    border-bottom: 6px solid red;
+    padding: 2px;
+}
+div.borders > div.border6 {
+    border-left: 15px solid blue;
+}
+div.borders > div.border7 {
+    border-left: 20px solid blue;
+}
+div.margins > div.margin1 {
+    border: 5px solid red;
+    background: red;
+    padding: 10px;
+    width: 20%;
+    margin-left: 40%;
+    text-align: center;
+}
+div.margin_box {
+    border: 2px solid green;
+    margin-left: 10px;
+}
+div.margin_box > div.margin_box_1 {
+    border: 2px solid red;
+    padding: 20px;
+    margin: inherit;
+}
+div.padding > div.padding1 {
+    border: 2px solid red;
+    margin-top: 20px;
+    padding: 20px 70px 50px 40px;
+}
+div.padding > div.max-width {
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 700px;
+    height: 100px;
+}
+div.outline {
+    border: 2px solid black;
+    padding: 20px;
+    width: 25%;
+    outline: 10px inset red;
+}
+div.outline2 {
+    margin: 70px 70px;
+    background: yellow;
+    border: 2px solid black;
+    padding: 20px;
+    width: 50%;
+    outline: 2px solid red;
+    outline-offset: 20px;
+}
+
