@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@1,900&family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik+Doodle+Shadow&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    background: maroon;
+    color: white;
+    font-family: Roboto;
+}
+h2.h2_centered {
+    font: normal 60px/100px Rubik Doodle Shadow;
+    text-align: center;
+}
+div.socials {
+    display: flex;
+}
+.custom-icon {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+div.icon_pack {
+    display: flex;
+}
+.icons {
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+}

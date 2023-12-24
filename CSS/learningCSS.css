@@ -4,13 +4,8 @@
 body {
     background: linen;
 }
-h1, h2, h3 {
-    color: maroon;
-}
+
 /* this is an example of CSS comment */
-p {
-    color: red; /* sets the color to red */
-}
 
 /* Let's create the color cards here */
 div.container {
@@ -139,4 +134,41 @@ div.outline2 {
     outline: 2px solid red;
     outline-offset: 20px;
 }
-
+div.text_container > div {
+    border: 2px solid green;
+    padding: 10px;
+    color: black;
+    
+}
+div.text_container > div p {
+    text-indent: 50px;
+    text-align: justify;
+    direction: rtl;
+}
+div.text_container > div h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: green;
+}
+div.text_container > div a {
+    text-decoration: none;
+    color: grey;
+}
+div.text_container > div a:hover {
+    color: black;
+}
+div.text_indent {
+    text-indent: 5px;
+    letter-spacing: 2px;
+    word-spacing: 20px;
+}
+h2.header a {
+    color: white;
+    font-size: 100px;
+    text-shadow: 2px 2px 5px red;
+    text-decoration: none;
+    font: normal 100px/200px arial, serif;
+}
+div.icons > h4 {
+    
+}
