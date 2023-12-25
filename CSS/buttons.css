@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(209, 232, 209);
+}
+/*navigation*/
+div.navigation > nav {
+    display: flex;
+    background: rgb(37, 77, 37);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+/* navigation logo image */
+div.navigation > nav img.coat_of_arms {
+    width: 100px;
+    vertical-align:middle;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+div.navigation > nav h2 {
+    color: white;
+    font-family: Ubuntu, sans-serif;
+    font-size: 30px;
+    margin-top: 32px;
+    margin-right: 50px;
+}
+div.navigation > nav li {
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 35px;
+    font-size: 20px;
+}
+div.navigation > nav li a {
+    color: white;
+    text-decoration: none;
+}
+div.navigation > nav li a:hover {
+    color: rgb(228, 225, 225);
+}
+/*custom icon*/
+.custom-icon {
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+}
+div.header-image {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    
+}
+div.header-image > img {
+    height: inherit;
+    width: auto;
+
+}
+/* header text */
+.header-text {
+    width: 300px;
+    height: auto;
+    margin-right: auto;
+}
+.header-text > h1{
+    font: 30px Ubuntu, sans-serif ;
+}
+.header-text > a button {
+    background: rgb(37, 77, 37);
+    padding: 15px;
+    width: 200px;
+    border: none;
+}
+.header-text > a button {
+    color: white;
+    font: normal 15px Ubuntu, sans-serif;
+    text-decoration: none;
+}
+.header-text >  a button:hover {
+    background: rgb(53, 99, 53);
+}
+
+div.header > .header_card2 {
+    background: rgb(59, 104, 59);
+    width: 100%;
+    height: 50px;
+}
+/*marguee alignment */
+.marquee {
+    display: flex;
+    width: 300px;
+}
+.marquee > .anouncement_scroll, a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+div.content {
+    display: flex;
+    overflow: hidden;
+    margin: 10px 100px 0px 100px;
+}
+div.content > .card1 {
+    max-width: 33%;
+    height: auto;
+    margin: 10px;
+    padding: 20px;
+}
+div.content > .image-card img {
+    width: 67%;
+    height: auto;
+    margin-top: 10px;
+
+}
+div.content > .image-card img {
+    width: inherit;
+}
+
+div.content > .card1 {
+    background: white;
+    padding: 50px;
+}
+div.content > .card2 {
+    background: rgb(84, 176, 84);
+}
+div.content > .card3 {
+    background: rgb(59, 104, 59);
+}
