@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family:  Roboto, sans-serif;
+}
+.text-link {
+    /* this defines all links in text */
+    text-decoration: none;
+    color: red
+}
+.text-link:hover {
+    color: rgb(254, 34, 34);
+}
+.button-link, .button-link-hover {
+    padding: 15px;
+    margin-right: 20px;
+}
+.button-link {
+    border: 2px solid green;
+    background: none;
+    font: normal 15px Popins, sans-serif;
+    
+}
+.button-link:hover {
+    background: green;
+    color: white;
+    transition: 0.1s ease-in;
+}
+.button-link-hover {
+    background: rgb(36, 137, 36);
+    border: none;    
+    font: normal 15px Popins, sans-serif;
+    color: white;
+    border-radius: 5px;
+}
+.button-link-hover:hover {
+    background: green;
+    cursor: pointer;
+}
+.button-link-hover .icon {
+    margin-left: 3px;
+    display: inline-block;
+    transform: transform 0.3s ease-in-out;
+}
+.button-link-hover:hover .icon {
+    transform: translate(3px);
+}
+section.section2 {
+    margin: 50px;
+}
+#customers {
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+    font: normal Popins, sans-serif;
+    margin-top: 50px;
+    cursor: pointer;
+    
+}
+#customers th {
+    background: green;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+#customers tr, #customers td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+#customers tr:nth-child(even) {
+    background: #ddd;
+}
+#customers tr:not(:nth-child(even)):hover {
+    background: rgb(86, 156, 86);
+    color: white;
+    transition: 0.1s ease-in-out;
+}
