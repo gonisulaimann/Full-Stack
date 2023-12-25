@@ -76,3 +76,108 @@ section.section2 {
     color: white;
     transition: 0.1s ease-in-out;
 }
+
+
+
+section.section3 {
+    margin: 50px;
+}
+#data {
+    width: 100%;
+    border-collapse: collapse;
+    font: normal Popins, sans-serif;
+    padding: 10px;
+}
+#data th {
+    background: orange;
+    color: white;
+    text-align: left;
+    padding: 12px;
+}
+#data tr, #data td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+#data tr:nth-child(even) {
+    background-color: #ddd;
+}
+#data1 {
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#data1 th {
+    background: red;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+#data1 tr, #data1 td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+#data1 tr:nth-child(even) {
+    background: #ddd;
+}
+#data1 tr:not(:nth-child(even)):hover {
+    background: red;
+    color: white;
+}
+.width {
+    width: 200px;
+    background: orange;
+}
+.height {
+    height: 100px;
+
+}
+
+#data3 {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#data3 th {
+    background: purple;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+#data3 tr, #data3 td {
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+}
+#data3 tr:nth-child(even) {
+    background: #ddd;
+}
+#data3 tr:not(:nth-child(even)):hover {
+    background: purple;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+button.table-button {
+    background: purple;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font: normal 15px Popins, sans-serif;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.3s ease-in-out;
+}
+button.table-button:hover {
+    background: rgb(151, 34, 151);
+}
+button.table-button > .icon2 {
+    display: inline-block;
+    margin-left: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+button.table-button .icon2:hover {
+    transform: translateX(10px);
+}
