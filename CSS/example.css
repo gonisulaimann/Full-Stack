@@ -87,6 +87,8 @@ section.section3 {
     border-collapse: collapse;
     font: normal Popins, sans-serif;
     padding: 10px;
+    position: sticky;
+    top: 0;
 }
 #data th {
     background: orange;
@@ -181,3 +183,84 @@ button.table-button > .icon2 {
 button.table-button .icon2:hover {
     transform: translateX(10px);
 }
+#colored-table {
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#colored-table th {
+    background: saddlebrown;
+    text-align: left;
+    color: white;
+    padding: 12px;
+}
+#colored-table tr, #colored-table td {
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+}
+#colored-table .column2 {
+    background: #ddd;
+    border: 2px solid white;
+}
+#colored-table .column2:nth-child(even) {
+    background: saddlebrown;
+    color: white;
+}
+#colored-table .column1:hover, .column3:hover {
+    background: #ddd;
+}
+.marginated {
+    background: orange;
+    color: white;
+    padding: 10px;
+    max-width: 500px;
+}
+.relative {
+    background: red;
+    padding: 20px;
+    color: white;
+    max-width: 200px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+div.container {
+    position: relative;
+    margin-top: 20px;
+    max-width: 100%;
+    overflow: hidden;
+}
+div.container > div > button {
+    background: green;
+    color: white;
+    padding: 20px;
+    border: none;
+    font: normal 15px Poppins, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div.container > img {
+    width: 100%;
+}
+div.container > div.text p {
+    color: white;
+    position: absolute;
+    top: 70%;
+}
+div.clear-box {
+    background: red;
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+div.clear p {
+    border: 2px solid red;
+    padding: 20px;
+    width: 500px;
+    clear: left;
+}
+
