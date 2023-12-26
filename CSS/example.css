@@ -263,4 +263,76 @@ div.clear p {
     width: 500px;
     clear: left;
 }
+.element::after {
+    content: " I am goni sulaiman";
+    color: red;
+}
 
+.elements::after {
+    content: '';
+    color: green;
+}
+.favicon::before {
+    content: url('/Icons/free icons/101.png')
+}
+.favicon::after {
+    content: attr(data-info);
+}
+.counter {
+    color: red;
+}
+.counter1::before {
+    content: attr(counter);
+}
+.counter1::after {
+    content: url('/Icons/free icons/104.png');
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+div.image-container {
+    width: 100%;
+    display: block;
+}
+div.image-container img {
+    width: 33.33%;
+    float: right;
+    padding: 5px;
+}
+div.box-container {
+    display: block;
+
+}
+div.box-container div {
+    padding: 10px;
+    float: left;
+    width: 33.33%;
+}
+div.box-container .container1 {
+    background: #ddd;
+}
+div.box-container .container2 {
+    background: #c4c4c4;
+}
+div.box-container .container3 {
+    background: #adadad;
+}
+div.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+div.flex-container > div {
+    padding: 10px;
+    text-align: center;
+    width: 33.33%;
+}
+div.flex-container .flex-container-1 {
+    background: orange;
+}
+div.flex-container .flex-container-2 {
+    background: green;
+}
+div.flex-container .flex-container-3 {
+    background: tomato;
+}
