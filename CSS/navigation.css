@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(rgba(255, 255, 255, 0.952), rgba(255, 255, 255, 0.976)), url(/Images/svg/coat\ of\ arms.svg);
+    background-size: cover; /* Adjust as needed */
+    margin: 0;
+    padding: 0;
+    color: rgb(59, 58, 58);
+}
+/* styling the navigation bar */
+header nav ul {
+    display: block;
+    background: rgb(9, 54, 9);
+    padding: 15px 15px 15px 0px;
+}
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+header nav ul li a:hover {
+    background: rgb(6, 43, 6);
+}
+header nav ul li a.active {
+    background: orange;
+}
+@media screen and (max-width: 700px) {
+    header nav ul li {
+        display: block;
+    }
+    header nav ul li a {
+        display: block;
+    }
+}
+header .nav-logo {
+    width: 100px;
+    display: inline-block;
+    margin: 10px;
+}
+/* navigation style ends here */
+.icons {
+    font-size: 20px;
+    color: orange;
+}
+/* body starts here */
+main {
+    margin: 35px;
+}
+main section {
+    margin-bottom: 50px;
+    border-bottom: 2px solid #ddd;
+}
+main section h2 {
+    font-size: 30px;
+}
+.section1 {
+    display: flex;
+    flex-direction: row;
+}
+.section1 div {
+    display: flex;
+    width: 50%;
+    margin: 20px;
+    
+}
+.card1 {
+    background: rgb(180, 230, 214);
+    padding: 20px;
+    font-size: 20px;
+}
+.card1 h2 {
+    color: black;
+    text-align: center;
+}
+.card1 h2 span {
+    color: green;
+}
+
+/* section2 design */
+.section2 {
+    display: flex;
+    flex-direction: row;
+}
+.section2 div {
+    margin: 20px;
+    
+}
+.section2 .card4 img {
+    width: auto;
+    flex-wrap: nowrap;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    flex-wrap: nowrap;
+}
+.section3 div {
+    flex: 1;
+}
+ .section3 .card5 img {
+    max-width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background: rgb(9, 54, 9);
+    display: block;
+}
+footer .footer-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+footer .footer-wrapper {
+    display: flex;
+}
+footer div {
+    color: white;
+    margin: 10px;
+    flex-wrap: nowrap;
+}
+footer div li {
+    list-style: none;
+}
+footer div li a {
+    color: white;
+    text-decoration: underline;
+}
+footer div h4, h3 {
+    color: orange;
+}
+
+/* footer form */
+footer .footer-form {
+    display: inline-block;
+    width: 40%;
+}
+footer .footer-form input{
+    border-radius: 4px;
+    height: 30px;
+}
+footer .footer-form text {
+    border-radius: 4px;
+}
+footer .footer-form input, textarea {
+    justify-content: center;
+}
+
+/* footer image */
+footer .footer-logo img {
+    width: 100px;
+    display: inline-block;
+}
+
+/* footer text */
+footer .copyright p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+@media screen and (max-width: 600px) {
+    footer {
+        display: block;
+        width: 100%;
+    }
+    footer div{
+        display: block;
+        width: 100%;
+    }
+}
+
